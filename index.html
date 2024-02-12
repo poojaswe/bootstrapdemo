@@ -27,6 +27,23 @@
             position: relative;
             z-index: 1;
         }
+
+        .form-control::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1;
+            /* Firefox */
+        }
+
+        .form-control:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: white;
+        }
+
+        .form-control::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: white;
+        }
     </style>
 </head>
 
@@ -197,6 +214,20 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="d-flex justify-content-center py-4 " style="background-color: rgb(18, 179, 96);">
+                <form class="row g-3">
+                    <div class="col-auto">
+                        <input type="email" class="form-control btn-outline-light" id="email" placeholder="Email ID"
+                            style="background-color: transparent;">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn"
+                            style="color:rgb(18, 179, 96); background-color: white;">Subscribe</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
