@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,6 +28,11 @@
         .hero .col-lg-6 {
             position: relative;
             z-index: 1;
+        }
+
+        .carousel-inner {
+            padding-left: 15%;
+            padding-right: 15%;
         }
 
         .form-control::placeholder {
@@ -97,7 +103,7 @@
         <section class="features">
             <div class="container px-4 pt-4">
                 <h2 class="text-center"><strong>OUR PRODUCT</strong></h2>
-                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 d-flex justify-content-center">
+                <div class="row g-4 py-5 px-5 row-cols-1 row-cols-lg-3 d-flex justify-content-center">
                     <div class="feature col text-center">
                         <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                             <img src="https://raw.githubusercontent.com/poojaswe/bootstraptheme/main/images/featurestar.png"
@@ -126,15 +132,15 @@
             </div>
         </section>
         <section class="aboutus-hero">
-            <div class="px-4 py-5" style="background-color: rgb(233, 235, 233);">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="px-5" style="background-color: rgb(233, 235, 233);">
+                <div class="row flex-lg-row-reverse justify-content-center g-3 py-5">
                     <div class="col-10 col-sm-8 col-lg-6">
                         <img src="https://raw.githubusercontent.com/poojaswe/bootstraptheme/main/images/chess.jpg"
                             class="d-block mx-lg-auto img-fluid" alt="aboutusimg" width="400px" loading="lazy">
                     </div>
-                    <div class="col-lg-6">
-                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ABOUT US</h1>
-                        <p class="lead">It is a long established fact that a reader will be distracted by the
+                    <div class="col-lg-6 py-2 my-auto">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center">ABOUT US</h1>
+                        <p class="lead text-wrap">It is a long established fact that a reader will be distracted by the
                             readable
                             content of a page when looking at its layout.</p>
                     </div>
@@ -152,8 +158,8 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner" style="background-color: rgba(18, 179, 96, 0.5);">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
+                    <div class="carousel-item active px-4 py-4">
+                        <div class="d-flex justify-content-center my-auto">
                             <div class="p-2">
                                 <img src="https://raw.githubusercontent.com/poojaswe/bootstraptheme/main/images/feedbackone.png"
                                     alt="feedbackone" width="150px" />
@@ -170,8 +176,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
+                    <div class="carousel-item px-4 py-4">
+                        <div class="d-flex justify-content-center my-auto">
                             <div class="p-2">
                                 <img src="https://raw.githubusercontent.com/poojaswe/bootstraptheme/main/images/feedbacktwo.png"
                                     alt="feedbackone" width="150px" />
@@ -188,8 +194,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
+                    <div class="carousel-item px-4 py-4">
+                        <div class="d-flex justify-content-center my-auto">
                             <div class="p-2">
                                 <img src="https://raw.githubusercontent.com/poojaswe/bootstraptheme/main/images/feedbackthree.png"
                                     alt="feedbackone" width="150px" />
@@ -205,6 +211,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -233,13 +240,13 @@
         </section>
     </main>
     <footer>
-        <div class="d-flex justify-content-center g-3">
-            <div class="px-3 py-3 text-center" style="flex:1;">
+        <div class="d-flex justify-content-center py-2">
+            <div class="px-3 py-3 text-left" style="flex:1;">
                 <h3>About Company</h3>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when
                     looking at its layout.</p>
             </div>
-            <div class="px-3 py-3 text-center" style="flex:1">
+            <div class="px-3 py-3 text-left" style="flex:1">
                 <h3>Quick Links</h3>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -248,11 +255,11 @@
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
                 </ul>
             </div>
-            <div class="px-3 py-3 text-center" style="flex:1">
+            <div class="px-3 py-3 text-left" style="flex:1">
                 <h3>Contact Us</h3>
                 <p>info@company.com</p>
                 <p>+1 241 0000000</p>
-                <ul class="list-unstyled d-flex justify-content-center">
+                <ul class="list-unstyled d-flex justify-content-start">
                     <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi-facebook"></i></a></li>
                     <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi-twitch"></i></a></li>
                     <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi-google"></i></a></li>
